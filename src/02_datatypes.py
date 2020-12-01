@@ -12,10 +12,30 @@ x = 5
 y = "7"
 
 # Write a print statement that combines x + y into the integer value 12
-
 # YOUR CODE HERE
 
+# convert string to an interger
+# method 1:
+# y = int(y)
+# print(y + x)
+
+# method 2 -  value unchanging method
+print(x+int(y))
+
+# method 3 :
+z = int(y)
+print(x+z)
 
 # Write a print statement that combines x + y into the string value 57
-
 # YOUR CODE HERE
+
+# method 1 - convert integer into string
+# x = str(x)
+# y = str(y)
+# print( x + y )
+
+# method 2
+# print(str(x) +str(y))
+
+# method 3 - value unchanging method
+print(str(x)+y)
